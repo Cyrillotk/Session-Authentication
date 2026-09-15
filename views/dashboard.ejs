@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome, <%= username %>!</h1>
+
+    <p>You are successfully logged in.</p>
+
+    <p>Your session is active.</p>
+
+    <form action="/logout" method="POST">
+      <button type="submit">Logout</button>
+    </form>
+  </div>
+
+</body>
+</html>
